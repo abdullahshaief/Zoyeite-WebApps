@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name='Tictactoe', content='minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no'>
+        <title>TicTacToe</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/tictactoeStyle.css">
+    <script src ="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/socket.io-client.min.js"></script>
+    <script src="/javascripts/tictactoeScripts/tictactoeClient.js"></script>
+    <script src="/javascripts/tictactoeScripts/tictactoe.js"></script>
+    <script src="/javascripts/tictactoeScripts/tictactoestyleScript.js"></script>
+    
+       
+    </head>
+    <body >
+        <h1 id="connectionStatus"></h1>
+        <h2 id="turnIndicator"></h2>
+        <p id="para" ></p>
+        <div id="gameCanvas" align="center">
+            
+            <table cellpadding='40%' align='center' border='1' style='margin-top: 10%; text-align: center;' >
+        
+            <tr>
+                <td id="button1" ><button  id="button1" type="button" ></button></td>
+                <td  id="button2" > <button  id="button2" type="button" ></button></td>
+                <td  id="button3" ><button  id="button3" type="button" ></button></td>
+            </tr>
+            <tr>
+                <td  id="button4" ><button  id="button4" type="button" ></button></td>
+                <td  id="button5" ><button  id="button5" type="button" ></button></td>
+                <td  id="button6" ><button  id="button6" type="button" ></button></td>
+            
+            </tr>
+            <tr>
+            
+                <td  id="button7" ><button  id="button7" type="button" ></button></td>
+                <td  id="button8" ><button  id="button8" type="button" ></button></td>
+                <td  id="button9" ><button  id="button9" type="button" ></button></td>
+            
+            </tr>
+            
+        </table>
+            
+        
+
+    
+        </div>
+        
+        <center id="popup" >
+          <div id="userContainer">
+         Your Name:
+         <input id="user" type = "text" placeholder="Enter Your name"/>
+         <br/>
+         Enter X or O: 
+         <input id="player" type="text" placeholder="Decided randomly if both choose same" />  
+         <br/>
+         <input id="send" type="button" value="Send" />
+            </div>
+        </center>
+        
+    </body>
+
+
+
+</html>

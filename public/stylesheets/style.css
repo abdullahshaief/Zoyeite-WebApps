@@ -1,0 +1,66 @@
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+body{
+    
+    margin: 2% 2% 2% 2%;
+}
+
+
+#chatBox{
+    min-width:  20%;
+    max-width:  20%;
+    float: left;
+    border: 2px solid;
+ 
+}
+
+#connectStatus{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 5px;
+ background-color: #EFFFEC;
+    border-bottom: 1px solid;
+    min-width: inherit;
+
+}
+
+#messages{
+    overflow: auto;
+    min-width: 200px;
+}
+
+#chat{   
+    width: 74%; 
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#myMessages{
+    
+  text-align: right;
+  font-family:  Papyrus,fantasy; 
+    font-weight: 900;
+    word-break: break-all;
+}
+
+#userMessages{
+    
+  text-align: left;
+  font-family:  Papyrus,fantasy; 
+    font-weight: 900;
+    word-break: break-all;
+}
+
+#userName{
+    display: none;
+   
+}
+
+#newUserMessage{
+    text-align: center;
+}

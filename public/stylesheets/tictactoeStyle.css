@@ -1,0 +1,23 @@
+#popup{
+    visibility: hidden;
+     
+}
+
+#userContainer{
+    
+    background-color: darkgray;
+    width: 200px;
+    height: 250px;
+    padding-top: 150px;
+}
+
+button{
+    font-style:oblique;font-weight: bold;font-size: 250%;
+        width: 100px;
+    height: 100px;
+}
+
+table{
+    
+     font-style:oblique;font-weight: bold;font-size: 250%;
+}

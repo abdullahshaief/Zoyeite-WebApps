@@ -1,0 +1,27 @@
+extends layout
+
+block title 
+    title Zoyeite-WebApps
+    meta(charset='utf-8')
+    script(src='/javascripts/jquery.min.js')
+    link#styleSheet(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+    meta(name='viewport', content='minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no')
+    
+block content
+    div
+      #chatBox
+        #overlay
+          input#userName(type='text', placeholder='   Your Name')
+          h1#connectStatus Welcome! Not connected!
+          #messages
+          input#chat(type='text', placeholder='Say hi!' required)
+          input#send(type='button', value='Send')
+      #content(style='text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px lightblue;')
+        &#9654;
+        a(href='http://localhost:3000/pages/tictactoe.html') Try TicTacToe! You will need another partner to play!
+        
+    script(src='/javascripts/socket.io-client.min.js')
+    script(src='/javascripts/styleScript.js')
+    script(src='/javascripts/client.js')
+    
+    
