@@ -12,8 +12,8 @@ var app = express();
 
 var port = process.env.port || 1337;
 
-var server = app.listen(process.env.port || 1337);
-var tictactoeserver = app.listen(process.env.port || 1339);
+var server = app.listen(3000);
+var tictactoeserver = app.listen(port);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
